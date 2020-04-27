@@ -40,7 +40,7 @@ module.exports = () => {
           rank: parseInt(positionTag.html(), 10),
           title: titleTag[0].attribs.title.trim(),
           country: countryTag[0].attribs.title.trim(),
-          averageRating: avgRatingTag.html(),
+          averageRating: parseInt(avgRatingTag.html().replace(',', ''), 10),
 
         };
         console.log('--> INSERT', { film });
