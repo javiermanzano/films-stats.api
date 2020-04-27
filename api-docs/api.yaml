@@ -47,6 +47,12 @@ paths:
       responses:
         200:
           description: user deleted
+  /films/scrap:
+    get:
+      description: Manually start scrapping
+      responses:
+        200:
+          description: user deleted
   /health:
     get:
       description: Health endpoint

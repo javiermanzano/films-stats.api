@@ -23,7 +23,6 @@ module.exports = {
   rules: {
     'no-underscore-dangle': 0,
     'global-require': 0,
-    'no-console': 2,
     'prefer-promise-reject-errors': 0,
   },
   overrides: [

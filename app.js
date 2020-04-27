@@ -12,6 +12,7 @@ const errorHandler = require('./components/middlewares/error-handler');
 
 const healthRoutes = require('./domain/health/routes');
 const usersRoutes = require('./domain/users/routes');
+const filmsRouter = require('./domain/films/routes');
 const authRoutes = require('./domain/auth/routes');
 
 const createApp = async () => {
@@ -26,6 +27,7 @@ const createApp = async () => {
 
   app.use('/health', healthRoutes);
   app.use('/users', usersRoutes);
+  app.use('/films', filmsRouter);
   app.use('/auth', authRoutes);
 
   await new OpenApiValidator({
