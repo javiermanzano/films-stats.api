@@ -63,7 +63,7 @@
     "cookie-parser": "~1.4.5",
     "cross-env": "^7.0.2",
     "debug": "^4.1.1",
-    "express": "~4.17.1",
+    "express": "~4.17.3",
     "express-openapi-validator": "^3.12.6",
     "express-pino-logger": "^4.0.0",
     "express-rate-limit": "^5.1.1",
